@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Remotes -->
+    <remote name="me" fetch="https://github.com/kuroringo90" />
+        
+    <!-- Trees -->
+    <project path="device/xiaomi/vayu" name="device_xiaomi_vayu-dotos" revision="12.1" remote="me" />
+    <project path="kernel/xiaomi/vayu" name="android_kernel_xiaomi_sm8150" revision="newzswap" remote="me" />
+    <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" revision="lineage-18.1" remote="me" />
+    
+</manifest>
