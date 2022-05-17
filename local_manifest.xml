@@ -6,6 +6,9 @@
     <project path="kernel/xiaomi/sm8150" name="Jebaitedneko/android_kernel_xiaomi_vayu.git" revision="r2"     remote="github" />
     <project path="vendor/xiaomi/vayu"   name="kuroringo90/vendor_xiaomi_vayu.git"           revision="lineage-18.1" remote="github" />
 
+    <!-- Hardware -->
+    <project path="hardware/xiaomi"      name="DotOS/android_hardware_xiaomi.git"      revision="dot12.1"     remote="github" />
+    
     <!-- Parts resources -->
     <project path="packages/resources/devicesettings" name="DotOS/android_packages_resources_devicesettings"  revision="dot12.1" remote="github" />
 
