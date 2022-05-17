@@ -3,7 +3,7 @@
     
     <!-- Trees -->
     <project path="device/xiaomi/vayu"   name="kuroringo90/device_xiaomi_vayu-dotos.git"     revision="12.1"         remote="github" />
-    <project path="kernel/xiaomi/sm8150" name="crdroidandroid/android_kernel_xiaomi_sm8150.git" revision=" 12.1"     remote="github" />
+    <project path="kernel/xiaomi/sm8150" name="crdroidandroid/android_kernel_xiaomi_sm8150.git" revision="12.1"     remote="github" />
     <project path="vendor/xiaomi/vayu"   name="kuroringo90/vendor_xiaomi_vayu.git"           revision="lineage-18.1" remote="github" />
 
     <!-- Parts resources -->
