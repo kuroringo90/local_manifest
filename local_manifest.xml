@@ -2,23 +2,14 @@
 <manifest>
 
     <!-- Trees -->
-    <project path="device/xiaomi/vayu"   name="kuroringo90/device_xiaomi_vayu-dotos.git"     revision="12.1"         remote="github" />
+    <project path="device/xiaomi/vayu"   name="kuroringo90/device_xiaomi_vayu-kraken.git"     revision="12.1"         remote="github" />
     <project path="kernel/xiaomi/sm8150" name="Jebaitedneko/android_kernel_xiaomi_vayu.git" revision="r2"     remote="github" />
     <project path="vendor/xiaomi/vayu"   name="kuroringo90/vendor_xiaomi_vayu.git"           revision="lineage-18.1" remote="github" />
 
     <!-- Hardware -->
-    <project path="hardware/xiaomi"      name="PixelPlusUI-SnowCone/hardware_xiaomi.git"      revision="snowcone-12.1"     remote="github" />
-
-
-    <remove-project name="platform/hardware/qcom/sm8150/display" />
-    <project path="hardware/qcom/sm8150/display" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_display.git"           revision="snowcone-12.1"    r>
-    
-   <project path="hardware/qcom/sm8150/audio" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_audio.git"                 revision="snowcone-12.1"   >
-   
-   <remove-project name="platform/hardware/qcom/sm8150/media" />
-   <project path="hardware/qcom/sm8150/media" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_media.git"                 revision="snowcone-12.1"    >
+    <project path="hardware/xiaomi"      name="AOSPK-Devices/hardware_xiaomi.git"      revision="twelve"     remote="github" />
 
     <!-- Parts resources -->
-    <project path="packages/resources/devicesettings" name="DotOS/android_packages_resources_devicesettings"  revision="dot12.1" remote="github" />
+    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git"  revision="lineage-19.1" remote="github" />
 
 </manifest>
