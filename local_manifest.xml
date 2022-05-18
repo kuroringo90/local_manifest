@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    
+
     <!-- Trees -->
     <project path="device/xiaomi/vayu"   name="kuroringo90/device_xiaomi_vayu-dotos.git"     revision="12.1"         remote="github" />
     <project path="kernel/xiaomi/sm8150" name="Jebaitedneko/android_kernel_xiaomi_vayu.git" revision="r2"     remote="github" />
@@ -9,17 +9,15 @@
     <!-- Hardware -->
     <project path="hardware/xiaomi"      name="PixelPlusUI-SnowCone/hardware_xiaomi.git"      revision="snowcone-12.1"     remote="github" />
 
-    
-    <remove-project name="DotOS/android_hardware_qcom-caf_sm8150_display" />
-    <project path="hardware/qcom-caf/msm8150/display" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_display.git"           revision="snowcone-12.1"    remote="github" />
-  
-    <remove-project name="DotOS/android_hardware_qcom-caf_sm8150_audio" />
-    <project path="hardware/qcom-caf/msm8150/audio" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_audio.git"                 revision="snowcone-12.1"    remote="github" />
-  
-    <remove-project name="DotOS/android_hardware_qcom-caf_sm8150_media" />
-    <project path="hardware/qcom-caf/msm8150/media" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_media.git"                 revision="snowcone-12.1"    remote="github" />
 
+    <remove-project name="platform/hardware/qcom/sm8150/display" />
+    <project path="hardware/qcom/sm8150/display" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_display.git"           revision="snowcone-12.1"    r>
     
+   <project path="hardware/qcom/sm8150/audio" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_audio.git"                 revision="snowcone-12.1"   >
+   
+   <remove-project name="platform/hardware/qcom/sm8150/media" />
+   <project path="hardware/qcom/sm8150/media" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_media.git"                 revision="snowcone-12.1"    >
+
     <!-- Parts resources -->
     <project path="packages/resources/devicesettings" name="DotOS/android_packages_resources_devicesettings"  revision="dot12.1" remote="github" />
 
