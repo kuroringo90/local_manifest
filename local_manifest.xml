@@ -9,7 +9,7 @@
     <project path="device/xiaomi/extras" name="AOSPK/device_xiaomi_extras.git"               revision="twelve"           remote="github" />
 
     <!-- Hardware --> 
-    <project path="hardware/xiaomi"      name="AOSPK/hardware_xiaomi.git"      revision="twelve"     remote="github" />
+    <project path="hardware/xiaomi"      name="PixelPlusUI-SnowCone/hardware_xiaomi.git"     revision="snowcone-12.1"     remote="github" />
  
     <!-- Parts resources -->
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git"  revision="lineage-19.1" remote="github" />
