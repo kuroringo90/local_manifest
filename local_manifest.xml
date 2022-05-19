@@ -4,7 +4,7 @@
     <!-- Trees -->
 
     <project path="device/xiaomi/vayu"   name="kuroringo90/android_device_xiaomi_vayu-proton.git"     revision="sc-v2"         remote="github" /> 
-    <project path="kernel/xiaomi/sm8150" name="kuroringo90/android_kernel_xiaomi_vayu.git"    revision="perry_new2"   remote="github" />
+    <project path="kernel/xiaomi/sm8150" name="kuroringo90/android_kernel_xiaomi_sm8150.git"    revision="newzswap"   remote="github" />
     <project path="vendor/xiaomi/vayu"   name="proton-vayu/android_vendor_xiaomi_vayu.git"    revision="sc"           remote="github" />
     <project path="device/xiaomi/extras" name="AOSPK/device_xiaomi_extras.git"               revision="twelve"           remote="github" />
 
