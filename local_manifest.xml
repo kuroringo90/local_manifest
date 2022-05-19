@@ -11,10 +11,6 @@
     <!-- Hardware --> 
     <project path="hardware/xiaomi"      name="PixelPlusUI-SnowCone/hardware_xiaomi.git"     revision="snowcone-12.1"     remote="github" />
  
-    <!-- Parts resources -->
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git"  revision="lineage-19.1" remote="github" />
-
-
  <!-- remove existing hals and add new sm8150 hals  -->
  <remove-project name="AOSPK/hardware_qcom_sm8150_display" />
  <remove-project name="AOSPK/hardware_qcom_sm8150_media" />
