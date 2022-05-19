@@ -3,15 +3,25 @@
 
     <!-- Trees -->
 
-    <project path="device/xiaomi/vayu"   name="kuroringo90/device_xiaomi_vayu-proton.git"     revision="12.1"         remote="github" /> 
+    <project path="device/xiaomi/vayu"   name="kuroringo90/android_device_xiaomi_vayu-proton.git"     revision="sc-v2"         remote="github" /> 
     <project path="kernel/xiaomi/sm8150" name="kuroringo90/android_kernel_xiaomi_vayu.git"    revision="perry_new2"   remote="github" />
-    <project path="vendor/xiaomi/vayu"   name="proton-vayu/vendor_xiaomi_vayu.git"            revision="sc"           remote="github" />
+    <project path="vendor/xiaomi/vayu"   name="proton-vayu/android_vendor_xiaomi_vayu.git"    revision="sc"           remote="github" />
     <project path="device/xiaomi/extras" name="proton-vayu/android_device_xiaomi_extras.git"  revision="sc"           remote="github" />
 
     <!-- Hardware --> 
-    <project path="hardware/xiaomi"      name="proton-vayu/android_vendor_xiaomi_vayu.git"      revision="sc"     remote="github" />
+    <project path="hardware/xiaomi"      name="proton-vayu/android_hardware_xiaomi.git"      revision="sc"     remote="github" />
  
     <!-- Parts resources -->
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git"  revision="lineage-19.1" remote="github" />
+
+
+ <!-- remove existing hals and add new sm8150 hals 
+ <remove-project name="hardware_qcom_display" />
+ <remove-project name="hardware_qcom_audio" />
+ <remove-project name="hardware_qcom_media" />
+ <project path="hardware/qcom-caf/sm8150/display" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_display" remote="github" revision="snowcone" />
+ <project path="hardware/qcom-caf/sm8150/media" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_media" remote="github" revision="snowcone" />
+ <project path="hardware/qcom-caf/sm8150/audio" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_audio" remote="github" revision="snowcone" />
+-->
 
 </manifest>
