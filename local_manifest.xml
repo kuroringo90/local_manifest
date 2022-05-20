@@ -13,12 +13,12 @@
     <!-- Parts resources -->
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git"  revision="lineage-19.1" remote="github" />
     
- <!-- remove existing hals and add new sm8150 hals 
- <remove-project name="AOSPK/hardware_qcom_sm8150_display" />
- <remove-project name="AOSPK/hardware_qcom_sm8150_media" />
+ <!-- remove existing hals and add new sm8150 hals -->
+ <remove-project name="hardware_qcom_sm8150_display" />
+ <remove-project name="hardware_qcom_sm8150_media" />
  <project path="hardware/qcom-caf/sm8150/display" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_display" remote="github" revision="snowcone" />
  <project path="hardware/qcom-caf/sm8150/media" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_media" remote="github" revision="snowcone" />
  <project path="hardware/qcom-caf/sm8150/audio" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_audio" remote="github" revision="snowcone" />
- -->
+ 
 
 </manifest>
