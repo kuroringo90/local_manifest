@@ -3,9 +3,9 @@
 
     <!-- Trees -->
 
-    <project path="device/xiaomi/vayu"   name="kuroringo90/android_device_xiaomi_vayu-proton.git"     revision="fluid"         remote="github" /> 
-    <project path="kernel/xiaomi/sm8150" name="Jebaitedneko/android_kernel_xiaomi_vayu.git" revision="r2"     remote="github" />
-    <project path="vendor/xiaomi/vayu"   name="proton-vayu/android_vendor_xiaomi_vayu.git"    revision="sc"           remote="github" />
+    <project path="device/xiaomi/vayu"   name="kuroringo90/android_device_xiaomi_vayu-statix.git"     revision="arrow-12.1"         remote="github" /> 
+    <project path="kernel/xiaomi/sm8150" name="Jebaitedneko/android_kernel_xiaomi_vayu.git"            revision="r2"     remote="github" />
+    <project path="vendor/xiaomi/vayu"   name="ArrowOS-Devices/android_vendor_xiaomi_vayu.git"    revision="arrow-12.1"      remote="github" />
 
     <!-- Hardware --> 
     <project path="hardware/xiaomi"      name="ArrowOS-Devices/android_hardware_xiaomi.git"     revision="arrow-12.1"     remote="github" />
