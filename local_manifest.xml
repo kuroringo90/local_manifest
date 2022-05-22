@@ -3,24 +3,26 @@
 
     <!-- Trees -->
 
-    <project path="device/xiaomi/vayu"   name="kuroringo90/android_device_xiaomi_vayu-proton.git"     revision="fluid"         remote="github" /> 
-    <project path="kernel/xiaomi/sm8150" name="Jebaitedneko/android_kernel_xiaomi_vayu.git" revision="r2"     remote="github" />
-    <project path="vendor/xiaomi/vayu"   name="proton-vayu/android_vendor_xiaomi_vayu.git"    revision="sc"           remote="github" />
+    <project path="device/xiaomi/vayu"   name="kuroringo90/device_xiaomi_vayu-new.git"     revision="Fluid"             remote="github" />
+    <project path="kernel/xiaomi/sm8150" name="Jebaitedneko/android_kernel_xiaomi_sm8150.git" revision="rom_kramel"     remote="github" />
+    <project path="vendor/xiaomi/vayu"   name="ProjectElixir-Devices/vendor_xiaomi_vayu.git"    revision="snow"         remote="github" />
 
-    <!-- Hardware --> 
-    <project path="hardware/xiaomi"      name="ArrowOS-Devices/android_hardware_xiaomi.git"     revision="arrow-12.1"     remote="github" />
+    <!-- Hardware -->
+    <project path="hardware/xiaomi"      name="ArrowOS-Devices/android_hardware_xiaomi.git"     revision="twelve"     remote="github" />
      
     
-    <!-- Parts resources -->
+    <!-- Parts resources --> 
     <remove-project name="packages_resources_devicesettings" />
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git"  revision="lineage-19.1" remote="github" />
-  
- <!-- remove existing hals and add new sm8150 hals 
- <remove-project name="hardware_qcom_sm8150_display" />
- <remove-project name="hardware_qcom_sm8150_media" />
- <project path="hardware/qcom-caf/sm8150/display" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_display" remote="github" revision="snowcone" />
- <project path="hardware/qcom-caf/sm8150/media" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_media" remote="github" revision="snowcone" />
- <project path="hardware/qcom-caf/sm8150/audio" name="PixelPlusUI-Devices/miatoll_hardware_qcom-caf_sm8150_audio" remote="github" revision="snowcone" />
- -->
+   
+   <!--  remove existing hals and add new sm8150 hals --> 
+   <remove-project name="hardware_qcom_display" />
+   <remove-project name="hardware_qcom_media" />
+   <remove-project name="hardware_qcom_audio" /> 
+   <project path="hardware/qcom-caf/sm8150/display" name="ArrowOS/android_hardware_qcom_display" remote="github" revision="arrow-12.1-caf-sm8150" />
+   <project path="hardware/qcom-caf/sm8150/media"   name="ArrowOS/android_hardware_qcom_media" remote="github" revision="arrow-12.1-caf-sm8150" />
+   <project path="hardware/qcom-caf/sm8150/audio"   name="ArrowOS/android_hardware_qcom_audio" remote="github" revision="arrow-12.1-caf-sm8150" />
+ 
+ 
 
 </manifest>
