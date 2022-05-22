@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+
+<remote name="github" fetch="github.com" />
+
     <!-- Trees -->
 
     <project path="device/xiaomi/vayu"   name="kuroringo90/device_xiaomi_vayu-new.git"     revision="Fluid"             remote="github" />
-    <project path="kernel/xiaomi/sm8150" name="Jebaitedneko/android_kernel_xiaomi_sm8150.git" revision="rom_kramel"     remote="github" />
+    <project path="kernel/xiaomi/sm8150" name="kurotingo90/android_kernel_xiaomi_sm8150.git" revision="rom_kramel"     remote="github" />
     <project path="vendor/xiaomi/vayu"   name="ProjectElixir-Devices/vendor_xiaomi_vayu.git"    revision="snow"         remote="github" />
 
     <!-- Hardware -->
@@ -12,7 +15,6 @@
      
     
     <!-- Parts resources --> 
-    <remove-project name="packages_resources_devicesettings" />
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings.git"  revision="lineage-19.1" remote="github" />
    
    <!--  remove existing hals and add new sm8150 hals --> 
