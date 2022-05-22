@@ -10,5 +10,9 @@
 
     <!-- Hardware -->
     <project path="hardware/xiaomi"      name="AOSPK-Devices/hardware_xiaomi.git"     revision="twelve"     remote="github" />
-     
+    
+    <!-- clone device/xiaomi/extras -->
+    <project path="device/xiaomi/extras" name="AOSPK-Devices/device_xiaomi_extras.git" revision="twelve"     remote="github" />
+
+    
  </manifest>
