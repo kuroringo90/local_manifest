@@ -3,17 +3,14 @@
 
     <!-- Trees -->
 
-    <project path="device/xiaomi/vayu"          name="kuroringo90/android_device_xiaomi_vayu-cr.git"           revision="kraken"  >
-    <project path="device/xiaomi/sm8150-common" name="kuroringo90/android_device_xiaomi_sm8150-common.git"     revision="kraken" >
-    <project path="kernel/xiaomi/sm8150"        name="crdroidandroid/android_kernel_xiaomi_sm8150.git"         revision="12.1"    >
-    <project path="vendor/xiaomi"               name="kuroringo90/proprietary_vendor_xiaomi.git"               revision="12.1"    >
+    <project path="device/xiaomi/vayu"          name="kuroringo90/android_device_xiaomi_vayu-cr.git"           revision="kraken"  remote="github"  />
+    <project path="device/xiaomi/sm8150-common" name="kuroringo90/android_device_xiaomi_sm8150-common.git"     revision="kraken"  remote="github"  />
+    <project path="kernel/xiaomi/sm8150"        name="crdroidandroid/android_kernel_xiaomi_sm8150.git"         revision="12.1"    remote="github" />
+    <project path="vendor/xiaomi"               name="kuroringo90/proprietary_vendor_xiaomi.git"               revision="12.1"    remote="github" />
 
     <!-- Hardware -->
     <project path="hardware/xiaomi"      name="AOSPK-Devices/hardware_xiaomi.git"     revision="twelve"     remote="github" />
 
     <!-- clone device/xiaomi/extras -->
     <project path="device/xiaomi/extras" name="AOSPK-Devices/device_xiaomi_extras.git" revision="twelve"     remote="github" />
-
- </manifest>
-
-
+</manifest>
