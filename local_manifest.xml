@@ -4,8 +4,8 @@
     <!-- Trees -->
 
     <project path="device/xiaomi/vayu"          name="kuroringo90/android_device_xiaomi_vayu-cr.git"           revision="dot"       remote="github" />
-    <project path="device/xiaomi/sm8150-common" name="kuroringo90/android_device_xiaomi_sm8150-common.git"     revision="12.1fix"         remote="github" />
-    <project path="kernel/xiaomi/sm8150"        name="crdroidandroid/android_kernel_xiaomi_sm8150.git"         revision="12.1"         remote="github" />
+    <project path="device/xiaomi/sm8150-common" name="kuroringo90/android_device_xiaomi_sm8150-common.git"     revision="dot"         remote="github" />
+    <project path="kernel/xiaomi/sm8150"        name="kuroringo90/android_kernel_xiaomi_sm8150.git"            revision="rom_kramel"         remote="github" />
     <project path="vendor/xiaomi"               name="kuroringo90/proprietary_vendor_xiaomi.git"               revision="12.1"         remote="github" />
 
     <!-- Hardware -->
