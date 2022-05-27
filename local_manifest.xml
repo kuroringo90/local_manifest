@@ -3,24 +3,14 @@
     
     <!-- Trees -->
 
-    <project path="device/xiaomi/vayu"          name="kuroringo90/android_device_xiaomi_vayu-cr.git"           revision="dot"       remote="github" />
-    <project path="device/xiaomi/sm8150-common" name="kuroringo90/android_device_xiaomi_sm8150-common.git"     revision="dot"         remote="github" />
-    <project path="kernel/xiaomi/sm8150"        name="kuroringo90/android_kernel_xiaomi_sm8150.git"            revision="rom_kramel"         remote="github" />
-    <project path="vendor/xiaomi"               name="kuroringo90/proprietary_vendor_xiaomi.git"               revision="12.1"         remote="github" />
+    <project path="device/xiaomi/vayu"          name="Nesquirt/android_device_xiaomi_vayu-1.git"           revision="p404"        remote="github"  />
+    <project path="kernel/xiaomi/sm8150"        name="kuroringo90/android_kernel_xiaomi_sm8150.git"            revision="rom_kramel"    remote="github" />
+    <project path="vendor/xiaomi"               name="Nesquirt/proprietary_vendor_xiaomi_vayu.git"               revision="sapphire"          remote="github" />
 
-    <!-- Hardware -->
-    <project path="hardware/xiaomi"            name="LineageOS/android_hardware_xiaomi.git"     revision="lineage-19.1"     remote="github" />
-
-    <!-- Parts resources -->
-    <project path="packages/resources/devicesettings" name="DotOS/android_packages_resources_devicesettings"  revision="dot12.1" remote="github" />
+   <!--  remove existing hals and add new sm8150 hals -->
+   <remove-project name="hardware_qcom_display" />
+   <remove-project name="hardware_qcom_media" />
+   <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="sapphire-855" />
+   <project path="hardware/qcom/media"   name="AOSPA/android_hardware_qcom_media" remote="github" revision="sapphire-855" />
     
-   <!--  remove existing hals and add new sm8150 hals --> 
-   <remove-project name="android_hardware_qcom-caf_sm8150_display" />
-   <remove-project name="android_hardware_qcom-caf_sm8150_media" />
-   <remove-project name="android_hardware_qcom-caf_sm8150_audio" /> 
-   <project path="hardware/qcom-caf/sm8150/display" name="LineageOS/android_hardware_qcom_display" remote="github" revision="lineage-19.1-caf-sm8150" />
-   <project path="hardware/qcom-caf/sm8150/media"   name="LineageOS/android_hardware_qcom_media" remote="github" revision="lineage-19.1-caf-sm8150" />
-   <project path="hardware/qcom-caf/sm8150/audio"   name="LineageOS/android_hardware_qcom_audio" remote="github" revision="lineage-19.1-caf-sm8150" />
-
 </manifest>
-    
