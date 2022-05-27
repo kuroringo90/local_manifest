@@ -5,12 +5,11 @@
 
     <project path="device/xiaomi/vayu"          name="Nesquirt/android_device_xiaomi_vayu-1.git"           revision="p404"        remote="github"  />
     <project path="kernel/xiaomi/sm8150"        name="kuroringo90/android_kernel_xiaomi_sm8150.git"            revision="rom_kramel"    remote="github" />
-    <project path="vendor/xiaomi"               name="Nesquirt/proprietary_vendor_xiaomi_vayu.git"               revision="sapphire"          remote="github" />
+    <project path="vendor/xiaomi/vayu"               name="Nesquirt/proprietary_vendor_xiaomi_vayu.git"               revision="sapphire"          remote="github" />
 
    <!--  remove existing hals and add new sm8150 hals -->
-   <remove-project name="hardware_qcom_display" />
-   <remove-project name="hardware_qcom_media" />
    <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="sapphire-855" />
    <project path="hardware/qcom/media"   name="AOSPA/android_hardware_qcom_media" remote="github" revision="sapphire-855" />
-    
+   <project path="vendor/qcom/opensource/audio-hal/primary-hal"   name="AOSPA/android_hardware_qcom_audio" remote="github" revision="sapphire-855" />
+
 </manifest>
