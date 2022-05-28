@@ -15,6 +15,6 @@
 
    <!-- remove 404 vendor and using edited 404 vendor -->
    <remove-project name="android_vendor_404" />
-   <project path="vendor/404" name="Nesquirt/android_vendor_404" remote="github" revision"shinka" />
+   <project path="vendor/404" name="Nesquirt/android_vendor_404" remote="github" revision="shinka" />
 
 </manifest>
