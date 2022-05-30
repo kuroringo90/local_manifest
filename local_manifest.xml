@@ -11,9 +11,5 @@
    <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="sapphire-855" />
    <project path="hardware/qcom/media"   name="AOSPA/android_hardware_qcom_media" remote="github" revision="sapphire-855" />
    <project path="vendor/qcom/opensource/audio-hal/primary-hal"   name="Cygnus-devices/vendor_qcom_opensource_audio-hal_primary-hal" remote="github" revision="caf-12-sm8150" />
-       
-   <!-- remove 404 vendor and using edited 404 vendor -->
-   <remove-project name="android_vendor_404" />
-   <project path="vendor/404" name="Nesquirt/android_vendor_404" remote="github" revision="shinka" />
 
 </manifest>
