@@ -15,9 +15,5 @@
   <!-- Remove Dialer from codeaurora -->  
     
    <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
-
-   <!-- Adding Prebuilt source for kernel -->
    
-   <project path="device/xiaomi/vayu/prebuilt" name="Nesquirt/android_device_xiaomi_vayu_prebuilt" remote="github" revision="p404" />
-
 </manifest>
