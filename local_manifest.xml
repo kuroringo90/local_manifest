@@ -3,7 +3,7 @@
     
     <!-- Trees -->
 
-    <project path="device/xiaomi/vayu"          name="Nesquirt/android_device_xiaomi_vayu-1.git"           revision="p404"        remote="github"  />
+    <project path="device/xiaomi/vayu"          name="Nesquirt/android_device_xiaomi_vayu-1.git"           revision="cygnus"        remote="github"  />
     <project path="kernel/xiaomi/sm8150"        name="kuroringo90/android_kernel_xiaomi_sm8150.git"            revision="rom_kramel"    remote="github" />
     <project path="vendor/xiaomi/vayu"          name="ArrowOS-Devices/android_vendor_xiaomi_vayu.git"               revision="arrow-12.1"          remote="github" />
 
