@@ -18,5 +18,5 @@
    
   <!-- Use our sepolicy vendor fixed -->  
    <remove-project name="android_device_qcom_sepolicy_vndr" />
-   <project path"=device/qcom/sepolicy_vndr" name="Nesquirt/android_device_qcom_sepolicy_vndr-1" remote="github" revision="shinka" />
+   <project path="device/qcom/sepolicy_vndr" name="Nesquirt/android_device_qcom_sepolicy_vndr-1" remote="github" revision="shinka" />
 </manifest>
