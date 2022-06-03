@@ -6,8 +6,8 @@
     <project path="device/xiaomi/vayu"          name="Nesquirt/android_device_xiaomi_vayu-1.git"           revision="p404"        remote="github"  />
     <project path="kernel/xiaomi/sm8150"        name="kuroringo90/android_kernel_xiaomi_sm8150.git"            revision="rom_kramel"    remote="github" />
     <project path="vendor/xiaomi/vayu"          name="ArrowOS-Devices/android_vendor_xiaomi_vayu.git"               revision="arrow-12.1"          remote="github" />
-
-   <!--  remove existing hals and add new sm8150 hals -->
+    
+   <!-- add new sm8150 hals -->
    <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="sapphire-855" />
    <project path="hardware/qcom/media"   name="AOSPA/android_hardware_qcom_media" remote="github" revision="sapphire-855" />
    <project path="vendor/qcom/opensource/audio-hal/primary-hal"   name="Cygnus-devices/vendor_qcom_opensource_audio-hal_primary-hal" remote="github" revision="caf-12-sm8150" />
@@ -16,4 +16,7 @@
     
    <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
    
+  <!-- Use our sepolicy vendor fixed -->  
+   <remove-project name="android_device_qcom_sepolicy_vndr" />
+   <project path"=device/qcom/sepolicy_vndr" name="Nesquirt/android_device_qcom_sepolicy_vndr-1" remote="github" revision="shinka" />
 </manifest>
