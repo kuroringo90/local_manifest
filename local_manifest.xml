@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    
+    <!-- Trees -->
+
+    <project path="device/xiaomi/vayu"          name="kuroringo90/device_xiaomi_vayu-ava.git"                  revision="ssos"          remote="github" />
+    <project path="kernel/xiaomi/sm8150"        name="kuroringo90/android_kernel_xiaomi_sm8150.git"            revision="rom_kramel"    remote="github" />
+    <project path="vendor/xiaomi/vayu"          name="kuroringo90/vendor_xiaomi_vayu-ava.git"                  revision="12.1"          remote="github" />
+
+</manifest>
