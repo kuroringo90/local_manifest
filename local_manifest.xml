@@ -3,7 +3,7 @@
     
     <!-- Trees -->
 
-    <project path="device/xiaomi/vayu"          name="kuroringo90/android_device_xiaomi_vayu-awa .git"        revision="zep"       remote="github" />
+    <project path="device/xiaomi/vayu"          name="kuroringo90/android_device_xiaomi_vayu-awa.git"        revision="zep"       remote="github" />
     <project path="kernel/xiaomi/sm8150"        name="kuroringo90/android_kernel_xiaomi_vayu.git"            revision="perrynew3"         remote="github" />
     <project path="vendor/xiaomi/vayu"          name="kuroringo90/android_vendor_xiaomi_vayu-awa.git"        revision="12.1"         remote="github" />
 
