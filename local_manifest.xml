@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    
-    <!-- Trees -->
-
-    <project path="device/xiaomi/vayu"          name="Nesquirt/android_device_xiaomi_vayu-1.git"           revision="cygnusOS"        remote="github"  />
-    <project path="kernel/xiaomi/sm8150"        name="kuroringo90/android_kernel_xiaomi_sm8150.git"            revision="rom_kramel"    remote="github" />
-    <project path="vendor/xiaomi/vayu"          name="ArrowOS-Devices/android_vendor_xiaomi_vayu.git"               revision="arrow-12.1"          remote="github" />
-
-   <!--  remove existing hals and add new sm8150 hals -->
-   <project path="hardware/qcom/display" name="AOSPA/android_hardware_qcom_display" remote="github" revision="sapphire-855" />
-   <project path="hardware/qcom/media"   name="AOSPA/android_hardware_qcom_media" remote="github" revision="sapphire-855" />
-   <project path="vendor/qcom/opensource/audio-hal/primary-hal"   name="Cygnus-devices/vendor_qcom_opensource_audio-hal_primary-hal" remote="github" revision="caf-12-sm8150" />
-
-  <!-- Remove Dialer from codeaurora -->  
-    
-   <remove-project name="platform/vendor/codeaurora/packages/apps/Dialer" />
-   
+   <remove-project name="android_system_core" />
+   <remove-project name="android_frameworks_native" />
+   <remove-project name="android_frameworks_av" />
+   <remove-project name="android_vendor_codeaurora_telephony" />
+   <project path="system/core"       name="kuroringo90/android_system_core" remote="github" revision="thirteen" />
+   <project path="frameworks/native" name="kuroringo90/android_frameworks_native" remote="github" revision="thirteen" />
+   <project path="frameworks/av"     name="kuroringo90/android_frameworks_av" remote="github" revision="thirteen" />
+   <project path="vendor/codeaurora/telephony" name="LineageOS/android_vendor_codeaurora_telephony" remote="github" revision="lineage-20.0" />
 </manifest>
